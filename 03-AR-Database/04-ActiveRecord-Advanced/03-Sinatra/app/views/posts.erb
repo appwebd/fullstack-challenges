@@ -1,0 +1,18 @@
+<%= erb :new_post %>
+
+<h1>Hacker News</h1>
+
+# list posts here. You can use instance variables set in the controller (app.rb)
+# the instance variables in app.rb are: @posts @post
+
+<ul>
+  <% @posts.each do |post| %>
+    <li>
+      <a href="<%= post.url %>" target="_blank"><%= post.title %> (<%= post.votes %> votes)</a>
+      <form action="/posts/<%= post.id %>/upvote" method="POST">
+        <input type="hidden" name="_method" value="PUT">
+        <input type="submit" value="upvote"/>
+      </form>
+    </li>
+  <% end %>
+</ul>

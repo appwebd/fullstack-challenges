@@ -1,0 +1,50 @@
+.organizations-sidebar {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    text-align: center;
+}
+
+.organization {
+    opacity: .3;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.organization:hover {
+    opacity: 1;
+}
+
+.organization.active {
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.conversations-sidebar {
+    background-color: gray;
+    color: white;
+    padding: 16px;
+    width: 200px;
+    flex-shrink: 0;
+}
+
+.conversations-sidebar h1 {
+    font-size: 24px;
+}
+
+.chat-section {
+    margin-top: 24px;
+}
+
+.chat-section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chat-section-header h3 {
+    font-size: 16px;
+    margin: 0;
+}

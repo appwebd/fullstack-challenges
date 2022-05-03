@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Bootstrap Utility Classes</title>
+    <link rel="shortcut icon" href="data:image/x-icon;" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+  </head>
+  <body class="bg-light">
+
+    <!-- navbar -->
+    <div class="border-bottom bg-white">
+      <div class="container d-flex align-items-center justify-content-between py-2">
+        <img src="images/deliveroo.png" alt="" width="140px">
+
+        <!-- turn this link into a button -->
+        <a href="#" class="btn btn-primary">Login</a>
+      </div>
+    </div>
+    <!-- /navbar -->
+
+    <!-- restaurant info -->
+    <div class="bg-white">
+      <div class="container p-3">
+        <div class="row">
+          <div class="col-md-8">
+            <h3>Pizza Union - Dalston</h3>
+            <p>An all-day Italian Pizza Bar - serving authentic Roman-style thin & crispy 12” pizzas made from scratch using the freshest ingredients, fire-baked in a superfast 3 minutes in our giant bell-shaped traditional Italian stone-fire oven.</p>
+          </div>
+          <div class="col-md-4">
+            <img src="https://f.roocdn.com/images/menus/70997/header-image.jpg?width=740&height=320&auto=webp&format=jpg&fit=crop&v=1531393618" alt="" class="w-100">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /restaurant info -->
+
+    <!-- restaurant menu / checkout-->
+    <div class="container py-3">
+      <div class="row">
+        <div class="col-md-8">
+
+          <!-- turn this into an alert (warning) -->
+          <div class="alert alert-warning" role="alert">
+            Going to order alcohol? We'll need to see your <strong>ID</strong>.
+          </div>
+
+          <h2>12" Pizza</h2>
+
+          <!-- make a card -->
+          <div class="card p-3 mb-3">
+            <p><strong>Margherita</strong></p>
+            <p><small>Tomato, basil, mozzarella</small></p>
+            <span>£5.95</span>
+          </div>
+
+          <!-- make a card -->
+          <div class="card p-3 mb-3">
+            <p><strong>Diavola</strong></p>
+            <p><small>Tomato, basil, mozzarella</small></p>
+            <span>£5.95</span>
+          </div>
+
+          <!-- make a card -->
+          <div class="card p-3 mb-3">
+            <p><strong>Regina</strong></p>
+            <p><small>Tomato, basil, mozzarella</small></p>
+            <span>£5.95</span>
+          </div>
+
+          <!-- make a card -->
+          <div class="card p-3 mb-3">
+            <p><strong>4 Formaggi</strong></p>
+            <p><small>Tomato, basil, mozzarella</small></p>
+            <span>£5.95</span>
+          </div>
+
+          <!-- make a card -->
+          <div class="card p-3 mb-3">
+            <p><strong>4 stagioni</strong></p>
+            <p><small>Tomato, basil, mozzarella</small></p>
+            <span>£5.95</span>
+          </div>
+          <!-- /menu -->
+        </div>
+
+        <div class="col-md-4">
+          <!-- checkout -->
+          <div class="bg-white border p-3 sticky-top">
+
+            <!-- make this a full length button -->
+            <a href="#" class="btn btn-primary w-100">Checkout</a>
+
+            <div class="d-flex justify-content-between mt-3">
+              <p><strong>Margherita</strong> (1)</p>
+              <p>£4.95</p>
+            </div>
+
+            <div class="d-flex justify-content-between mt-3">
+              <p><strong>Regina</strong> (2)</p>
+              <p>£11.90</p>
+            </div>
+
+            <div class="d-flex justify-content-between mt-3 border-bottom">
+              <p><strong>Diavola</strong> (1)</p>
+              <p>£6.95</p>
+            </div>
+
+            <div class="d-flex justify-content-between mt-3">
+              <p><strong>Total</strong></p>
+              <p><strong>£23.80</strong></p>
+            </div>
+          </div>
+          <!-- /checkout -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Including Bootstrap JS (with its Popper.js / jQuery dependency) so that dynamic components work -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
